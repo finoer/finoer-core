@@ -1,7 +1,6 @@
 var Finoer2212 = (function () {
     function Finoer2212() {
         this.name = "";
-        
     }
     Finoer2212.prototype.getName222 = function () {
         console.log(this.name);
