@@ -16,8 +16,7 @@
       "esm"
     ]
   },
-  
-  "author": "",
+  "author": "finoer",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.0.0",
