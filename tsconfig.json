@@ -7,7 +7,7 @@
         "types": ["node"], // 需要包含的类型声明文件名列表
         "jsx": "react",
         "declaration": true, // 生成相应的 '.d.ts' 文件
-        "declarationDir": "./dist/types",
+        "declarationDir": ".",
         "esModuleInterop": true,
         "sourceMap": true, // 生成相应的 '.map' 文件
         "outDir": "./dist", // 指定输出目录

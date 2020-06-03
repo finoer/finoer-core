@@ -1,4 +1,4 @@
-class Finoer2212 {
+class Finoer {
     private name: string = "";
 
     getName222 () {
@@ -12,4 +12,4 @@ class Finoer2212 {
     }
 }
 
-export default Finoer2212
+export default Finoer
