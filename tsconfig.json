@@ -59,5 +59,8 @@
     },
 
     // 让IDE在保存文件的时候根据tsconfig.json重新生成文件
-    "compileOnSave": true // 支持这个特性需要Visual Studio 2015， TypeScript1.8.4以上并且安装atom-typescript插件
+    "compileOnSave": true, // 支持这个特性需要Visual Studio 2015， TypeScript1.8.4以上并且安装atom-typescript插件
+    "references": [
+        
+    ]
 }

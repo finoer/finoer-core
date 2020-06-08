@@ -1,7 +1,7 @@
 class Finoer {
     private name: string = "";
 
-    getName222 () {
+    getName () {
         console.log(this.name)
 
         return this.name

@@ -17,8 +17,8 @@
       "esm"
     ]
   },
-  
-  "author": "",
+  "typings": "dist/types/finoer-core.d.ts",
+  "author": "finoer",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.0.0",
