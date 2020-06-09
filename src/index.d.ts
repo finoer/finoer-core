@@ -1,6 +1,9 @@
 declare class Finoer {
     private name;
-    getName222(): string;
+    private skill1;
+    age: number;
+    getName(): string;
+    getSkill(): void;
     setName(name: string): void;
 }
 export default Finoer;

@@ -13,26 +13,15 @@ const name = pkg.name
 
 // const targetPackage = process.env.TARGET;
 
-let filePath = path.resolve(__dirname, 'dist')
-
 const tsconfig = path.resolve(__dirname, 'tsconfig.json')
 // console.log('tsconfig------', tsconfig)
 
 
 const output = [
     {
-        file: `${filePath}/${name}.esm-browser.js`,
+        file: `dist/src/index.js`,
         format: `es`,
         sourceMaps: true
-    },
-    {
-        file: `${filePath}/${name}.cjs.js`,
-        format: `cjs`,
-        sourceMaps: true
-    },
-    {
-        file: `${filePath}/${name}.global.js`,
-        format: `iife`
     }
 ]
 
@@ -47,7 +36,7 @@ module.exports =  {
             namedExports: false
         }),
         // Compile TypeScript files
-        typescript({ 
+        typescript({
             // tsconfigDefaults: defaults,
             tsconfig: tsconfig,
             // tsconfigOverride: tsconfig,

@@ -2,13 +2,12 @@
   "name": "@finoer/finoer-core",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/finoer-core.cjs.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rollup -c -w",
     "docs": "typedoc --out docs src"
   },
-  "types": "dist/src/index.d.ts",
   "buildOptions": {
     "name": "Vue",
     "formats": [
@@ -17,7 +16,7 @@
       "esm"
     ]
   },
-  "typings": "dist/types/finoer-core.d.ts",
+  "typings": "dist/src/index.d.ts",
   "author": "finoer",
   "license": "ISC",
   "dependencies": {
