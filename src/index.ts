@@ -1,7 +1,7 @@
 import Router from './router'
 class Finoer {
     private name: string = "";
-    private skill1: string = "流翼11";
+    private skill1: string = "流翼1111232323";
     public age: number = 21
     private router: Router<string>;
 
@@ -12,18 +12,17 @@ class Finoer {
     }
 
     getName () {
-        console.log('getname', this.name)
+      console.log('getname', this.name)
 
-        return this.name
+      return this.name
     }
 
     getSkill() {
       console.log('getSkill', this.skill1, 'age:', this.age)
     }
 
-
     setName(name: string) {
-        this.name = name
+      this.name = name
     }
 }
 
